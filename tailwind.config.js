@@ -5,6 +5,22 @@ export default {
     extend: {
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
+        primary: ['Candal', 'serif'],
+      },
+      colors: {
+        primary: 'var(--color-primary)',
+        secondary: 'var(--color-secondary)',
+        tertiary: 'var(--color-tertiary)',
+        erased: 'var(--color-erased)',
+        discount: 'var(--color-discount)',
+      },
+      borderColor: {
+        primary: 'var(--color-border)',
+      },
+      backgroundColor: {
+        primary: 'var(--background-primary)',
+        secondary: 'var(--background-secondary)',
+        discount: 'var(--background-discount)',
       },
     },
   },
