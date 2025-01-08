@@ -1,8 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Candal&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css2?family=Candal&display=swap');
 
 @layer base {
   :root {
@@ -13,7 +12,8 @@
     --color-border: rgba(0, 0, 0, 0.1);
     --color-discount: #ff3333;
     --background-discount: rgba(255, 51, 51, 0.1);
-    --background-primary: #9a9a9a;
-    --background-secondary: #f2f9f1;
+    --background-primary: #ffffff;
+    --background-secondary: #9a9a9a;
+    --background-tertiary: #f2f9f1;
   }
 }
