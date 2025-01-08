@@ -5,7 +5,7 @@ export default {
     extend: {
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
-        primary: ['Candal', 'serif'],
+        primary: ['Integral CF', 'sans-serif'],
       },
       colors: {
         primary: 'var(--color-primary)',
