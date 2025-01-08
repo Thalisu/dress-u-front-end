@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
+        sans: ['Satoshi', 'sans-serif'],
         primary: ['Integral CF', 'sans-serif'],
       },
       colors: {
@@ -21,6 +21,7 @@ export default {
         primary: 'var(--background-primary)',
         secondary: 'var(--background-secondary)',
         tertiary: 'var(--background-tertiary)',
+        accent: 'var(--background-accent)',
         discount: 'var(--background-discount)',
       },
     },
