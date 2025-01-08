@@ -18,3 +18,31 @@
   font-weight: 500;
   src: url('../fonts/integralCF/medium.otf') format('opentype');
 }
+
+@font-face {
+  font-family: 'Satoshi';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/satoshi/bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/satoshi/regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/satoshi/medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/satoshi/light.otf') format('opentype');
+}
