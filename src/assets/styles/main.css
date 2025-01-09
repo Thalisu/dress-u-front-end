@@ -10,6 +10,12 @@ body {
   width: 100svw;
 }
 
+#app {
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
 @media (max-width: 640px) {
   :root {
     font-size: 12px;
