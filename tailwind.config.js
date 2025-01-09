@@ -24,6 +24,9 @@ export default {
         accent: 'var(--background-accent)',
         discount: 'var(--background-discount)',
       },
+      maxWidth: {
+        max: 'var(--max-width)',
+      },
     },
   },
   plugins: ['prettier-plugin-tailwindcss'],

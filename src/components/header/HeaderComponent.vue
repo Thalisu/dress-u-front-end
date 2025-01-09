@@ -4,7 +4,9 @@ import SearchBar from './SearchBar.vue'
 import UserBar from './UserBar.vue'
 </script>
 <template>
-  <header class="bg-primary w-full py-4 flex justify-center mx-1 items-center gap-10 px-24 h-20">
+  <header
+    class="bg-primary w-full py-4 flex justify-center mx-1 items-center gap-10 px-24 h-20 max-w-max"
+  >
     <h1
       class="font-primary text-2xl font-bold text-center block leading-none relative h-[1.125rem]"
     >
