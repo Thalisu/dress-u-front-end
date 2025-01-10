@@ -19,9 +19,21 @@ body {
   align-items: center;
 }
 
+@media (max-width: 1024px) {
+  :root {
+    font-size: 14px;
+  }
+}
+
 @media (max-width: 640px) {
   :root {
     font-size: 12px;
+  }
+}
+
+@media (max-width: 420px), (max-height: 810px) {
+  :root {
+    font-size: 10px;
   }
 }
 
@@ -38,6 +50,7 @@ body {
     --background-secondary: #9a9a9a;
     --background-tertiary: #f2f0f1;
     --background-accent: #f0f0f0;
+    --background-complement: #000000;
 
     --max-width: 1440px;
   }

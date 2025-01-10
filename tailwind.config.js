@@ -22,6 +22,7 @@ export default {
         secondary: 'var(--background-secondary)',
         tertiary: 'var(--background-tertiary)',
         accent: 'var(--background-accent)',
+        complement: 'var(--background-complement)',
         discount: 'var(--background-discount)',
       },
       maxWidth: {
