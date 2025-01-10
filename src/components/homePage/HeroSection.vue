@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { isMobile } from '@/utils'
+import { isWidthLessThan } from '@/utils'
 import { onMounted, reactive, type CSSProperties } from 'vue'
 
 const containerStyle: CSSProperties = reactive({ aspectRatio: '16/9', flexDirection: 'row' })
@@ -8,7 +8,7 @@ const buttonStyle: CSSProperties = reactive({ width: 'max-content' })
 const heroSectionPic = new URL('../../assets/imgs/heroSectionPic.png', import.meta.url).href
 
 const updateStyle = () => {
-  if (!isMobile()) {
+  if (!isWidthLessThan(800)) {
     containerStyle.aspectRatio = '16/9'
     containerStyle.flexDirection = 'row'
     buttonStyle.width = 'max-content'
