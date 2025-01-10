@@ -31,7 +31,7 @@ body {
   }
 }
 
-@media (max-width: 420px), (max-height: 810px) {
+@media (max-width: 480px), (max-height: 810px) {
   :root {
     font-size: 10px;
   }
