@@ -1,1 +1,1 @@
-export const isMobile = () => window.innerWidth < 800
+export const isWidthLessThan = (x: number) => window.innerWidth < x
