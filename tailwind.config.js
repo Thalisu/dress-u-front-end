@@ -28,6 +28,9 @@ export default {
       maxWidth: {
         max: 'var(--max-width)',
       },
+      gradientColorStops: {
+        complement: 'var(--background-complement)',
+      },
     },
   },
   plugins: ['prettier-plugin-tailwindcss'],
