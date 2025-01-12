@@ -10,7 +10,7 @@ import treino from '@/assets/imgs/treino.png'
     <div class="flex w-full gap-5 mb-5 flex-wrap md:flex-nowrap">
       <a href="" class="h-72 flex bg-primary relative p-9 rounded-3xl overflow-clip min-w-80 grow">
         <p class="z-50 font-bold text-4xl">Casual</p>
-        <img :src="casual" alt="casual" class="absolute bottom-0 right-0 top-0" />
+        <img :src="casual" alt="casual" class="absolute top-0 right-0 h-full w-max object-cover" />
       </a>
       <a
         href=""
@@ -30,7 +30,7 @@ import treino from '@/assets/imgs/treino.png'
       </a>
       <a href="" class="h-72 flex bg-white relative p-9 rounded-3xl overflow-clip min-w-80 grow">
         <p class="z-50 font-bold text-4xl">Treino</p>
-        <img :src="treino" alt="treino" class="absolute bottom-0 right-0 top-0" />
+        <img :src="treino" alt="treino" class="absolute top-0 right-0 h-full w-max object-cover" />
       </a>
     </div>
   </div>
