@@ -27,7 +27,7 @@ defineProps({
     <h2 class="font-primary text-5xl font-bold text-center w-fit text-wrap flex flex-wrap">
       {{ category }}
     </h2>
-    <div class="flex gap-5 self-start pl-4 ml-auto mr-auto">
+    <div class="flex gap-5 self-start ml-auto mr-auto box-content">
       <ProductCard
         v-for="product in products.slice(Number(itemFrom), Number(itemTo))"
         :key="product.id"
