@@ -5,7 +5,7 @@ import SearchSVG from '../svgs/SearchSVG.vue'
 </script>
 <template>
   <div class="flex gap-4">
-    <div class="relative w-6 h-6 md:hidden">
+    <div class="relative w-6 h-6 sm:hidden">
       <button>
         <SearchSVG class="w-6 h-6" />
       </button>

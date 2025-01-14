@@ -3,7 +3,7 @@ import SearchSVG from '../svgs/SearchSVG.vue'
 </script>
 <template>
   <div
-    class="bg-accent grow flex items-center gap rounded-full px-4 focus-within:border focus-within:border-secondary overflow-clip transition-all max-md:hidden"
+    class="bg-accent grow flex items-center gap rounded-full px-4 focus-within:border focus-within:border-secondary overflow-clip transition-all max-sm:hidden"
   >
     <button>
       <SearchSVG class="w-6 h-6 opacity-40" />
