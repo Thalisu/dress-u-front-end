@@ -1,24 +1,5 @@
-<script setup lang="ts">
-import { isWidthLessThan } from '@/utils'
-import { onMounted, ref } from 'vue'
-
-const isMobile = ref(false)
-
-const updateStyle = () => {
-  if (isWidthLessThan(1127)) {
-    isMobile.value = true
-  } else {
-    isMobile.value = false
-  }
-}
-
-onMounted(() => {
-  updateStyle()
-  window.addEventListener('resize', updateStyle)
-})
-</script>
 <template>
-  <div class="flex flex-wrap justify-between grow gap-6" v-if="!isMobile">
+  <div class="flex flex-wrap justify-between grow gap-6 max-lg:hidden">
     <div class="flex flex-col gap-6">
       <h3 class="font-medium tracking-widest">Empresa</h3>
       <a href="" class="opacity-60">Sobre</a>
