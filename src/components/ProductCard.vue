@@ -16,7 +16,7 @@ defineProps({
     type: Number,
     required: true,
   },
-  discont: {
+  discount: {
     type: Number,
     required: false,
   },
@@ -29,15 +29,15 @@ defineProps({
       <h3 class="font-bold text-xl">{{ title }}</h3>
       <div class="flex gap-3">
         <span class="text-2xl font-bold">{{
-          `R\$ ${Math.round(price * (1 - (discont || 0)))}`
+          `R\$ ${Math.round(price * (1 - (discount || 0)))}`
         }}</span>
-        <span v-if="discont" class="opacity-40 line-through text-2xl font-bold">{{
+        <span v-if="discount" class="opacity-40 line-through text-2xl font-bold">{{
           `R\$ ${price}`
         }}</span>
         <span
-          v-if="discont"
+          v-if="discount"
           class="font-medium text-discount text-xs px-3 py-2 rounded-full bg-discount"
-          >{{ `${discont * 100}%` }}</span
+          >{{ `${discount * 100}%` }}</span
         >
       </div>
     </a>
